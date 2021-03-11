@@ -67,9 +67,9 @@ func loadstats(playerName string, mapName string) {
 		log.Fatal(err)
 	}
 
-	// write their personal best kills
+	// TODO: write their personal best kills
 
-	// write their average kills
+	// TODO: write their average kills
 }
 
 func filedump(label string, value string) error {
