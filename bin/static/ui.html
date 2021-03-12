@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HDPC</title>
+    <link rel="stylesheet" href="css/ui.css" type="text/css">
+</head>
+<body>
+    <h1>HDPC Metrics</h1>
+    <p>Enter the player names seperated by comma's. Do not enter their team name prior.</p>
+
+    <form>
+        <!-- Map name -->
+        <label for="mapname">Map Name:</label>
+        <input type="text" id="mapname">
+        <br>
+
+        <!-- Player names -->
+        <label for="players">Player Names:</label>
+        <input type="text" id="players">
+    </form>
+
+    <!-- Submit button-->
+    <button onclick="scrape()">Refresh</button>
+    
+    <script src="js/ui.js"></script>
+</body>
